@@ -1,0 +1,265 @@
+:root {
+    --paragraph-color: #212121;
+    --link-color: #212121; 
+    --heading-font-family: "Roboto", "sans-serif";
+    --width: 1600px;
+    --height: 2348px;
+    --background: #FFF;
+}
+
+body {background-color: #fff ;}
+
+        /* About header */
+
+.global-header {
+width: 1600px;
+height: 80px;
+flex-shrink: 0;
+background: #FFF;
+}
+
+.main-navigation a{
+    color: #212121;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+          }
+.global-header .main-navigation a :hover {color: #2196F3;}
+
+.logo {
+    color: #2196F3;
+    font-family: Raleway;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
+}
+.logo-studio {
+    color: #000;
+}
+.e-mail {color: #2196F3;
+}
+.phone {color: #757575;
+}
+
+/* About Hero Section */
+
+.hero-section {
+width: 1600px;
+height: 600px;
+flex-shrink: 0;
+background: #2F303A
+}
+
+.hero-title {
+color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 44px;
+font-style: normal;
+font-weight: 900;
+line-height: 60px; /* 136.364% */
+letter-spacing: 2.64px;
+text-transform: uppercase;
+width: 696px;
+}
+
+.hero-button {
+color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px; /* 187.5% */
+letter-spacing: 0.96px;
+width: 200px;
+height: 50px;
+flex-shrink: 0;
+border-radius: 4px;
+background: #2196F3;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+/* Why us section */
+
+.why-us-title {
+color: #212121;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.42px;
+text-transform: uppercase;
+width: 270px;
+}
+
+.why-us-description {
+color: #757575;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 171.429% */
+letter-spacing: 0.42px;
+width: 270px;
+height: 75px;
+flex-shrink: 0;    
+}
+
+ /* What we do and Our Team section */
+
+.what-we-do-title, .our-team-title {
+    color: #212121;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.08px;    
+}
+you
+.what-we-do-pictures {
+width: 370px;
+height: 294px;
+flex-shrink: 0;
+background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+.our-team-section {
+    width: 1600px;
+    height: 648px;
+    flex-shrink: 0;
+    background: #F5F4FA;
+}
+.our-team-pictures {
+width: 270px;
+height: 260px;
+flex-shrink: 0;
+background: url(<path-to-image>), lightgray -86.437px -3.457px / 196.208% 136.002% no-repeat;
+}
+
+.our-team-name {
+color: #212121;
+text-align: center;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.48px;
+}
+
+.our-team-department {
+color: #757575;
+text-align: center;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.48px;
+}
+
+/* footer section */
+
+.footer-section {
+    width: 1600px;
+    height: 251px;
+    flex-shrink: 0;
+    background: #2F303A;
+}
+
+
+.address {
+    width: 207px;
+    height: 16px;
+    flex-shrink: 0;
+    color: #FFF;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.42px;
+}
+
+.contact {
+    width: 231px;
+height: 16px;
+flex-shrink: 0;
+width: 231px;
+height: 16px;
+flex-shrink: 0;
+}
+
+/* Portfolio section */
+
+.button-type {
+    color: #212121;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; /* 162.5% */
+    letter-spacing: 0.48px;
+    width: 120px;
+height: 38px;
+flex-shrink: 0;
+border-radius: 4px;
+background: #F5F4FA;
+}
+
+.button-type :hover {
+    color: #FFFFFF;
+text-align: center;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 26px; /* 162.5% */
+letter-spacing: 0.48px;
+    width: 64px;
+    height: 38px;
+    flex-shrink: 0;
+    border-radius: 4px;
+background: #2196F3;
+/* shadow-middle */
+box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+}
+
+.project-name {
+    color: #212121;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px; /* 200% */
+    letter-spacing: 1.08px;
+    width: 322px;
+}
+
+.project-type {
+    color: #757575;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 187.5% */
+    letter-spacing: 0.48px;
+    width: 322px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,{
+    font-family: var(--heading-font-family;)
+}
